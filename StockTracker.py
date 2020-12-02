@@ -55,8 +55,8 @@ label_marketValues = Label(root, text="Current Market Values", relief=RAISED, bg
 current_num = total_value
 label_marketValues_num = Label(root, text=current_num, relief=FLAT, bg='white')
 
-label_marketValues.grid(row = 0, column = 1, sticky = W, pady = 2)
-label_marketValues_num.grid(row = 1, column = 1, sticky = W, pady = 2)
+label_marketValues.grid(row = 2, column = 0, sticky = W, pady = 2)
+label_marketValues_num.grid(row = 3, column = 0, sticky = W, pady = 2)
 
 # Result
 label_overview = Label(root, text="Investment Result", relief=RAISED, bg='black', fg='white')
@@ -64,8 +64,8 @@ label_overview = Label(root, text="Investment Result", relief=RAISED, bg='black'
 result_num = invest_result
 label_overview_num = Label(root, text=result_num, relief=FLAT, bg='white')
 
-label_overview.grid(row = 0, column = 2, sticky = W, pady = 2)
-label_overview_num.grid(row = 1, column = 2, sticky = W, pady = 2)
+label_overview.grid(row = 4, column = 0, sticky = W, pady = 2)
+label_overview_num.grid(row = 5, column = 0, sticky = W, pady = 2)
 
 # set an infinite loop so window stays in view
 root.mainloop()
